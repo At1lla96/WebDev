@@ -1,0 +1,14 @@
+/* Write your code here: */
+.done{
+    color:blueviolet;
+}
+.box > p{
+    color:firebrick;
+}
+
+.box li{
+    color:blue
+}
+li.done{
+    color:seagreen;
+}

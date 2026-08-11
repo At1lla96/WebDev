@@ -1,0 +1,27 @@
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+h3 {
+  text-align: center;
+}
+img {
+  border: 5px solid white;
+  width: 100%;
+}
+#primu {
+  width: 50%;
+  margin: 10% 25%;
+}
+#doi{
+    width:50%;
+    margin: 25%;
+    text-align:center;
+}
+body{
+    background-color: black; color: white
+}
