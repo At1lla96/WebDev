@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <%if(locals.secret && locals.user) {%>
   <h1>What's your secret?</h1>
   <div class="card">
     <p>
@@ -21,6 +22,9 @@
   <p class="user">
     <%= user %>
   </p>
+  <%}else{%>
+    <h1 class="error">Nobody has any secrets 😒...</h1>
+  <%}%>
 </body>
 
 </html>
