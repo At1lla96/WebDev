@@ -2,6 +2,10 @@
 workspace:
   id: a5ff28fb-90fe-426f-875f-2c86ffaee88b
 
+cloudResources:
+  collections:
+    ../postman/collections/JokeAPI: 60f058b7-6c29-4921-9c8d-589f8649f847
+
 # All resources in the `postman/` folder are automatically registered in Local View.
 # Point to additional files outside the `postman/` folder to register them individually. Example:
 #localResources:
